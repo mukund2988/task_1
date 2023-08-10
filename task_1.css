@@ -1,0 +1,114 @@
+.container {
+    background-position: center;
+    background-image: linear-gradient(rgb(20, 20, 128), rgb(175, 51, 72), rgb(36, 22, 22));
+    text-align: center;
+    margin: 22px;
+    margin-top: 64px;
+    border-radius: 10px 30px;
+  
+  
+  }
+  
+  .body {
+    background-image: linear-gradient(rgb(104, 117, 142), rgb(26, 135, 133), rgb(153, 49, 115));
+    margin: -7px;
+    height: auto;
+    border-radius: 35px 20px 20px;
+  
+  }
+  
+  
+  
+  .button {
+    max-width: fit-content;
+  
+    padding: 21px;
+    border-radius: 9px;
+    border: 3px solid black;
+    cursor: pointer;
+    appearance: auto;
+  }
+  
+  
+  .row {
+    margin: auto;
+    padding: 2px;
+    padding-top: 6px;
+  }
+  
+  .input {
+    max-width: 500px;
+    height: 25px;
+    margin-top: 15px;
+    border-radius: 2px;
+    padding-left: 20px;
+    padding-top: 25px;
+    padding-right: 20px;
+    border-color: rgb(235, 154, 125);
+  
+    font-size: 1rem;
+    border-radius: 5px 10px;
+  }
+  
+  .input1 {
+    max-width: 500px;
+    height: 25px;
+    margin-top: 15px;
+    border-radius: 2px;
+    padding-left: 20px;
+    padding-top: 25px;
+    padding-right: 20px;
+    border-color: rgb(60, 27, 160);
+  
+    font-size: 1rem;
+    border-radius: 15px 15px 10px;
+  }
+  
+  
+  
+  .waviy {
+  
+    position: relative;
+    -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0, 0, 0, .2));
+    font-size: 60px;
+    text-align: center;
+  
+  
+  }
+  
+  .waviy span {
+    font-family: serif;
+    font-size: 50%;
+    position: relative;
+    display: inline-block;
+    text-align: justify;
+    animation: waviy 1s infinite;
+    animation-delay: calc(.1s * var(--i));
+  
+  }
+  
+  @keyframes waviy {
+  
+    0%,
+    40%,
+    100% {
+      transform: translateY(0)
+    }
+  
+    20% {
+      transform: translateY(-20px)
+    }
+  }
+  
+  .all {
+    background-image: linear-gradient(rgba(103, 164, 237, 0.922), rgb(131, 70, 70), rgb(205, 40, 199));
+    ;
+    width: auto;
+    margin-left: 95px;
+    margin-right: 95px;
+    border-radius: 10px 25px;
+  
+  
+  
+  
+  }
